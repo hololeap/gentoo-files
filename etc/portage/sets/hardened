@@ -1,0 +1,5 @@
+app-admin/paxtest
+app-misc/pax-utils
+sys-apps/gradm
+sys-apps/paxctl
+sys-kernel/hardened-sources
