@@ -1,2 +1,2 @@
 www-client/firefox gmp-autoupdate
-x11-base/xorg-server-1.19.5 xvfb
+x11-base/xorg-server xvfb
