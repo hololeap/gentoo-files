@@ -2,5 +2,13 @@ dev-lang/ghc
 dev-haskell/haskell-platform
 dev-haskell/hscolour
 dev-haskell/hoogle
+dev-haskell/hlint
+dev-haskell/stack
 
 dev-haskell/reactive-banana-wx
+dev-haskell/extensible-effects
+dev-haskell/configurator
+dev-haskell/lens
+dev-haskell/acid-state
+dev-haskell/data-memocombinators
+dev-haskell/hspec
