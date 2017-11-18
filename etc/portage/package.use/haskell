@@ -1,0 +1,3 @@
+dev-lang/ghc  doc
+dev-haskell/* hscolour hoogle doc examples buildexamples
+x11-libs/wxGTK gstreamer
