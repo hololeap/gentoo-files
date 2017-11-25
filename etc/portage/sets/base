@@ -35,3 +35,4 @@ app-portage/pfl
 app-shells/gentoo-bashcomp
 app-shells/bash-completion
 sys-kernel/gentoo-sources
+app-emulation/virtualbox-guest-additions

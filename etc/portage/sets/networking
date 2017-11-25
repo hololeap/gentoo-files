@@ -11,3 +11,5 @@ net-misc/whois
 sys-apps/iproute2
 sys-devel/distcc
 www-client/elinks
+sys-apps/usermode-utilities
+net-misc/bridge-utils
