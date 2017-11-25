@@ -1,3 +1,8 @@
 dev-lang/ghc  doc
 dev-haskell/* hscolour hoogle doc examples buildexamples
 x11-libs/wxGTK gstreamer
+dev-lang/python sqlite
+x11-libs/cairo X
+x11-libs/wxGTK opengl
+
+>dev-lang/ghc-8.0.2 ghcbootstrap
