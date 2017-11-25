@@ -22,10 +22,8 @@ sys-apps/smartmontools
 sys-apps/usbutils
 sys-boot/grub
 sys-fs/btrfs-progs
-sys-fs/dmraid
 sys-fs/dosfstools
 sys-fs/lvm2
-sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/genkernel-next
 sys-kernel/linux-firmware
