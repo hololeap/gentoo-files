@@ -1,0 +1,9 @@
+x11-misc/lightdm -gnome gtk
+net-misc/openssh -X
+virtual/mysql embedded
+dev-db/mariadb embedded
+media-sound/amarok ipod lastfm mtp ofa
+media-libs/libgpod gtk
+dev-qt/qtwebkit gstreamer
+kde-apps/kig geogebra scripting
+dev-libs/boost python

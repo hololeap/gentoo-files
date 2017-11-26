@@ -1,0 +1,16 @@
+kde-apps/dolphin thumbnail
+kde-plasma/libksysguard -detailedmemory
+kde-plasma/systemsettings gtk
+kde-plasma/plasma-meta gtk
+
+kde-apps/* X
+kde-frameworks/* X
+kde-misc/* X
+kde-plasma/* X
+net-irc/kvirc -perl -phonon -spell
+kde-plasma/kwallet-pam -oldwallet
+kde-apps/okular djvu ebook mobi
+kde-plasma/plasma-desktop gtk2 gtk3 legacy-systray
+dev-libs/libdbusmenu gtk3
+kde-frameworks/kfilemetadata epub taglib
+sys-apps/dbus user-session

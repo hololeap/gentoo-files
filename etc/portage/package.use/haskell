@@ -1,3 +1,4 @@
-dev-lang/ghc  doc
-dev-haskell/* hscolour hoogle doc examples buildexamples
+dev-lang/ghc doc
 x11-libs/wxGTK gstreamer
+dev-haskell/* doc hscolour hoogle
+dev-lang/python sqlite
