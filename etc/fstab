@@ -1,3 +1,0 @@
-LABEL=gentoo-root  /                   btrfs defaults,noatime,compress=lzo 0 1
-LABEL=gentoo-repos /var/db/portage/repos btrfs defaults,noatime,compress-force=zlib,autodefrag 0 2
-LABEL=gentoo-swap  none                swap  defaults                      0 0
