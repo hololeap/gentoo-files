@@ -13,3 +13,4 @@ sys-devel/distcc
 www-client/elinks
 sys-apps/usermode-utilities
 net-misc/bridge-utils
+net-fs/nfs-utils
