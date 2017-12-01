@@ -13,7 +13,6 @@ app-portage/mirrorselect
 app-text/qpdf
 app-text/wgetpaste
 dev-vcs/git
-media-sound/alsa-utils
 sys-apps/lshw
 sys-apps/mlocate
 sys-apps/pciutils
