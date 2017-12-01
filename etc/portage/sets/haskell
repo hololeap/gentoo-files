@@ -39,8 +39,8 @@ dev-haskell/gpipe
 dev-haskell/gpipe-glfw
 dev-haskell/juicypixels
 dev-haskell/netwire
-dev-haskell/openal
-dev-haskell/alut
+#dev-haskell/openal
+#dev-haskell/alut
 
 dev-haskell/synthesizer-core
 
