@@ -1,2 +1,2 @@
-app-emulation/wine ~amd64
+app-emulation/wine-d3d9 ~amd64
 app-emulation/winetricks **
