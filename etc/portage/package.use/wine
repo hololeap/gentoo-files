@@ -1,4 +1,4 @@
-app-emulation/wine-d3d9 X dos gstreamer pipelight staging themes -udisks netapi
+app-emulation/wine-any X dos gstreamer pipelight staging themes -udisks netapi
 
 # Needed for app-emulation/wine[samba]
 net-fs/samba winbind
