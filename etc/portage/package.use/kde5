@@ -9,7 +9,7 @@ kde-misc/* X
 kde-plasma/* X
 net-irc/kvirc -perl -phonon -spell
 kde-plasma/kwallet-pam -oldwallet
-kde-apps/okular djvu ebook mobi
+kde-apps/okular djvu ebook epub mobi mobile plucker
 kde-plasma/plasma-desktop gtk2 gtk3 legacy-systray
 dev-libs/libdbusmenu gtk3
 kde-frameworks/kfilemetadata epub taglib
