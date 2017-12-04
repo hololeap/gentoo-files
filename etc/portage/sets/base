@@ -38,3 +38,4 @@ app-shells/gentoo-bashcomp
 app-shells/bash-completion
 app-arch/duff
 sys-boot/os-prober
+app-crypt/gentoo-keys

@@ -7,3 +7,4 @@ sys-kernel/genkernel-next ~amd64
 app-arch/duff ~amd64
 sys-kernel/linux-firmware ~amd64
 app-portage/eix ~amd64
+app-crypt/gentoo-keys ~amd64
