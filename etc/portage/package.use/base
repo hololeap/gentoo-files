@@ -1,5 +1,4 @@
 app-portage/layman gpg sync-plugin-portage
-sys-kernel/linux-firmware savedconfig
 sys-kernel/gentoo-sources experimental
 dev-vcs/git -gtk
 sys-apps/lshw -gtk
