@@ -2,5 +2,5 @@ x11-libs/* X
 media-fonts/* X
 media-video/vlc -libnotify X
 media-video/mpv X -xscreensaver
-x11-drivers/nvidia-drivers gtk3 uvm
+x11-drivers/nvidia-drivers gtk3 uvm acpi
 x11-libs/libxcb xkb
