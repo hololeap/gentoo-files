@@ -8,7 +8,6 @@ net-misc/dhcpcd
 net-misc/netkit-telnetd
 net-misc/ntp
 net-misc/whois
-net-wireless/rfkill
 sys-apps/iproute2
 sys-devel/distcc
 www-client/elinks
