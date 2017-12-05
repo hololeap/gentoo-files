@@ -1,4 +1,9 @@
-To set up this repo when installing gentoo:
+To set up this repo when installing Gentoo:
 
-`git clone --recurse-submodules https://github.com/hololeap/gentoo-files .`
-`tar --skip-old-files jxpf stage3-*.tar.bz2`
+- Mount all directories (except dev, proc, and sys)
+- `cd /mnt/gentoo`
+- `git init`
+- `git remote add origin https://github.com/hololeap/gentoo-files`
+- `git pull origin $branch`
+- `git submodule update --init --depth 1 --recursive` 
+- `tar --skip-old-files jxpf stage3-*.tar.bz2`
