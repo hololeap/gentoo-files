@@ -1,0 +1,3 @@
+[submodule "gentoo-repo"]
+	path = var/db/portage/repos/gentoo
+	url = https://anongit.gentoo.org/git/repo/sync/gentoo.git
