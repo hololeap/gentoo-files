@@ -1,0 +1,7 @@
+LABEL=gentoo-root  /    btrfs    defaults,noatime,nodiratime,compress=lzo,errors=remount-ro,nodev 0 1
+LABEL=gentoo-var   /var reiserfs defaults,notail,noatime,nodiratime,nodev,nosuid 0 2
+LABEL=gentoo-repos /var/db/portage/repos btrfs defaults,noatime,nodiratime,compress-force=zlib,nodev,nosuid,noexec 0 2
+LABEL=gentoo-swap  none swap     defaults,sw                   0 0
+none /tmp tmpfs defaults,nodev,nosuid,noexec,noatime,nodiratime 0 0
+
+
