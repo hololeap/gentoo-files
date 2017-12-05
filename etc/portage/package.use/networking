@@ -2,3 +2,5 @@ net-wireless/wpa_supplicant -qt5
 www-client/elinks -X -mouse
 www-client/links -X -jpeg -tiff
 net-fs/samba client -gpg 
+sys-libs/tevent python
+sys-libs/tdb python
