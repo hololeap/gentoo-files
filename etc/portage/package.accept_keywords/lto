@@ -1,0 +1,4 @@
+sys-config/ltoize ~amd64
+sys-devel/gcc-config ~amd64
+app-portage/portage-bashrc-mv ~amd64
+app-shells/runtitle ~amd64
