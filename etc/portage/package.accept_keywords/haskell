@@ -1,4 +1,5 @@
 */*::haskell ~amd64
+dev-haskell/* ~amd64
 
 dev-lang/ghc ~amd64
 app-admin/haskell-updater ~amd64

@@ -13,9 +13,6 @@ app-portage/mirrorselect
 app-text/qpdf
 app-text/wgetpaste
 dev-vcs/git
-media-gfx/splashutils
-media-gfx/splash-themes-gentoo
-media-sound/alsa-utils
 sys-apps/lshw
 sys-apps/mlocate
 sys-apps/pciutils
@@ -24,10 +21,8 @@ sys-apps/smartmontools
 sys-apps/usbutils
 sys-boot/grub
 sys-fs/btrfs-progs
-sys-fs/dmraid
 sys-fs/dosfstools
 sys-fs/lvm2
-sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/genkernel-next
 sys-kernel/linux-firmware
@@ -38,4 +33,16 @@ sys-process/iotop
 app-portage/pfl
 app-shells/gentoo-bashcomp
 app-shells/bash-completion
+sys-kernel/gentoo-sources
+app-arch/lzop
+app-portage/genlop
+app-portage/repoman
+dev-util/ccache
+dev-util/debugedit
+dev-util/strace
+dev-util/valgrind
+sys-devel/crossdev
+sys-devel/gdb
+sys-fs/sysfsutils
+sys-process/systemd-cron
 app-arch/duff
