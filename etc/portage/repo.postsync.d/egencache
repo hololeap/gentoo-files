@@ -2,17 +2,20 @@
 
 source /lib/gentoo/functions.sh
 
-repository_name=${1}
+nproc="$(/usr/bin/nproc)"
+repo="$1"
 
 
-if [[ -n "${repository_name}" ]]; then
-	[[ "${repository_name}" == "gentoo" ]] && exit 0
+if [[ -n "$repo" ]]; then
+	[[ "$repo" == "gentoo" ]] && exit 0
 	
-	einfo "Running egencache for $repository_name"
+	einfo "Running egencache for $repo"
 
-	if ! egencache --update -j6 --load-average 6.0 --repo "$repository_name"
+	if ! egencache --update "-j${nproc}" --load-average "${nproc}.0" --repo "$repo"
 	then
 		eerror "egencache failed!"
 		exit 1
 	fi
+else
+	einfo "$0 ran with no argument"
 fi
