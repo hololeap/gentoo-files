@@ -4,7 +4,7 @@ if [[ -e /etc/portage/make.conf.lto ]]; then
 	source /etc/portage/make.conf.lto
 
 	FLTO="-flto=4"
-	CFLAGS="$CFLAGS -march=amdfam10 $FLTO"
+	CFLAGS="$CFLAGS -march=native $FLTO"
 	CXXFLAGS="$CFLAGS"
 fi
 
