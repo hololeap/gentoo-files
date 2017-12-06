@@ -12,8 +12,3 @@ if [[ -e /etc/portage/make.conf.lto ]]; then
 	CFLAGS="$CFLAGS -march=${march} $FLTO"
 	CXXFLAGS="$CFLAGS"
 fi
-
-# (C) Martin V\"ath <martin@mvath.de>
-[ "`type -t BashrcdMain`" = function ] || \
-. "${PORTAGE_CONFIGROOT%/}/etc/portage/bashrc.d/bashrcd.sh"
-BashrcdMain "$@"
