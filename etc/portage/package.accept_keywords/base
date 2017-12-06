@@ -1,0 +1,7 @@
+app-portage/layman ~amd64
+sys-power/cpupower ~amd64
+app-shells/gentoo-bashcomp ~amd64
+app-shells/bash-completion ~amd64
+app-portage/cpuid2cpuflags **
+sys-kernel/genkernel-next ~amd64
+app-arch/duff ~amd64

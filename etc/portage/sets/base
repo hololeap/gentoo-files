@@ -34,7 +34,6 @@ app-portage/pfl
 app-shells/gentoo-bashcomp
 app-shells/bash-completion
 sys-kernel/gentoo-sources
-app-emulation/virtualbox-guest-additions
 app-arch/lzop
 app-portage/genlop
 app-portage/repoman
@@ -46,3 +45,4 @@ sys-devel/crossdev
 sys-devel/gdb
 sys-fs/sysfsutils
 sys-process/systemd-cron
+app-arch/duff

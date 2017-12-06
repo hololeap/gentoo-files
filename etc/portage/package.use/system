@@ -1,1 +1,3 @@
+dev-libs/libpcre -readline
+dev-libs/libpcre2 -readline
 app-shells/bash -net
