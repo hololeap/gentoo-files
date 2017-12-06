@@ -1,0 +1,11 @@
+sys-devel/gcc fortran
+dev-python/numpy lapack
+*/* uhd
+net-wireless/gr-osmosdr iqbalance
+*/* rtlsdr
+net-wireless/gr-osmosdr python
+net-wireless/gnuradio atsc channels dtv examples fec grc log noaa pager qt4 sdl trellis vocoder wavelet zeromq
+x11-libs/qwt qt4
+media-libs/phonon qt4
+media-libs/phonon-vlc qt4
+dev-python/PyQt4 compat

@@ -13,8 +13,6 @@ app-portage/mirrorselect
 app-text/qpdf
 app-text/wgetpaste
 dev-vcs/git
-media-gfx/splashutils
-media-gfx/splash-themes-gentoo
 media-sound/alsa-utils
 sys-apps/lshw
 sys-apps/mlocate
@@ -39,3 +37,5 @@ app-portage/pfl
 app-shells/gentoo-bashcomp
 app-shells/bash-completion
 app-arch/duff
+sys-boot/os-prober
+app-crypt/gentoo-keys

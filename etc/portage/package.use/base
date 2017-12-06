@@ -1,0 +1,7 @@
+app-portage/layman gpg sync-plugin-portage
+sys-kernel/gentoo-sources experimental
+dev-vcs/git -gtk
+sys-apps/lshw -gtk
+app-editors/vim -X
+sys-boot/grub device-mapper mount
+app-portage/eix sqlite

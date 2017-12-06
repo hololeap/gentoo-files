@@ -1,0 +1,2 @@
+net-vpn/tor scrypt tor-hardening zstd
+net-analyzer/nmap ncat ndiff nping zenmap libssh2

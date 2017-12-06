@@ -1,0 +1,12 @@
+net-wireless/gqrx **
+net-wireless/gnuradio **
+net-wireless/uhd ~amd64
+net-wireless/gr-osmosdr ~amd64
+net-wirless/rtl-sdr ~amd64
+net-wirless/gr-iqbal ~amd64
+net-libs/libosmo-dsp ~amd64
+net-wireless/rtl-sdr ~amd64
+net-wireless/gr-iqbal ~amd64
+net-libs/libosmo-dsp ~amd64
+dev-python/PyQt4 ~amd64
+net-libs/cppzmq ~amd64

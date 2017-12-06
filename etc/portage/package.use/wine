@@ -1,0 +1,6 @@
+app-emulation/wine-any X dos gstreamer pipelight staging themes -udisks netapi
+
+# Needed for app-emulation/wine[samba]
+net-fs/samba winbind
+
+app-emulation/winetricks gtk rar

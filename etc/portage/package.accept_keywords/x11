@@ -1,0 +1,6 @@
+app-crypt/gpgme ~amd64
+x11-drivers/nvidia-drivers ~amd64
+dev-libs/libclc ~amd64
+net-misc/youtube-dl ~amd64
+media-libs/mesa ~amd64
+x11-libs/libdrm ~amd64

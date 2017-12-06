@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [[ -e /etc/portage/make.conf.lto ]]; then
+	source /etc/portage/make.conf.lto
+
+	FLTO="-flto=4"
+	CFLAGS="$CFLAGS -march=amdfam10 $FLTO"
+	CXXFLAGS="$CFLAGS"
+fi
+
+# (C) Martin V\"ath <martin@mvath.de>
+[ "`type -t BashrcdMain`" = function ] || \
+. "${PORTAGE_CONFIGROOT%/}/etc/portage/bashrc.d/bashrcd.sh"
+BashrcdMain "$@"

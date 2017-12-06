@@ -1,0 +1,22 @@
+dev-qt/*:5 ~amd64
+kde-apps/*:5  ~amd64
+kde-plasma/*:5 ~amd64
+kde-frameworks/*:5 ~amd64
+kde-misc/*:5 ~amd64
+
+app-text/kchmviewer ~amd64
+x11-misc/sddm ~amd64
+
+dev-python/PyQt5 ~amd64
+x11-misc/xdg-utils ~amd64
+de-libs/libinput ~amd64
+dev-libs/libinput ~amd64
+x11-libs/libxkbcommon ~amd64
+kde-plasma/plasma-workspace-wallpapers **
+kde-frameworks/extra-cmake-modules ~amd64
+media-libs/libpng ~amd64
+sys-apps/dbus ~amd64
+net-irc/kvirc ~amd64
+kde-apps/k3b ~amd64
+dev-libs/tinyxml2 ~amd64
+sys-fs/encfs ~amd64

@@ -2,3 +2,4 @@
 
 dev-lang/ghc ~amd64
 app-admin/haskell-updater ~amd64
+app-portage/hackport **
