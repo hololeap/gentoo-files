@@ -1,5 +1,7 @@
 LABEL=gentoo-root  /    btrfs    noatime,nodiratime,compress=lzo,errors=remount-ro,nodev 0 1
-LABEL=gentoo-var   /var reiserfs notail,noatime,nodiratime,nodev,nosuid 0 2
+LABEL=gentoo-home  /home btrfs   noatime,nodiratime,nodev,nosuid 0 2
+LABEL=gentoo-boot  /boot btrfs noatime,nodiratime,compress-force=zlib,noexec,nosuid,nodev 0 2
+LABEL=gentoo-var   /var btrfs noatime,nodiratime,nodev,nosuid 0 2
 LABEL=gentoo-repos /var/db/portage/repos btrfs noatime,nodiratime,compress-force=zlib,nodev,nosuid,noexec 0 2
 LABEL=gentoo-swap  none swap     sw                                     0 0
 none               /tmp tmpfs    nodev,nosuid,noexec,noatime,nodiratime 0 0
