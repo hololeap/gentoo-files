@@ -2,7 +2,7 @@
 
 march="native"
 
-nproc="$(nproc)"
+nproc="$(/usr/bin/nproc)"
 MAKEOPTS="-j${nproc}"
 FLTO="-flto=${nproc}"
 
