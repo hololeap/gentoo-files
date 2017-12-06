@@ -1,11 +1,14 @@
 #!/bin/bash
 
+nproc="$(/usr/bin/nproc)"
+
 source /lib/gentoo/functions.sh
 
-einfo "Running egencache for local"
-
-if ! egencache --update -j6 --load-average 6.0 --repo local
-then
-	eerror "egencache failed!"
-	exit 1
-fi
+for repo in local; do
+	einfo "Running egencache for $repo"
+	if ! egencache --update "-j${nproc}" --load-average "${nproc}.0" --repo "$repo"
+	then
+		eerror "egencache failed!"
+		exit 1
+	fi
+done
