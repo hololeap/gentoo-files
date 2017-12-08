@@ -1,14 +1,2 @@
 #!/bin/bash
 
-march="native"
-
-nproc="$(/usr/bin/nproc)"
-MAKEOPTS="-j${nproc}"
-FLTO="-flto=${nproc}"
-
-if [[ -e /etc/portage/make.conf.lto ]]; then
-	source /etc/portage/make.conf.lto
-
-	CFLAGS="$CFLAGS -march=${march} $FLTO"
-	CXXFLAGS="$CFLAGS"
-fi
