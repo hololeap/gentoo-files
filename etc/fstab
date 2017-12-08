@@ -1,7 +1,9 @@
-LABEL=gentoo-root  /    btrfs    noatime,nodiratime,compress=lzo,nodev 0 1
-LABEL=gentoo-home  /home btrfs   noatime,nodiratime,nodev,nosuid 0 2
-LABEL=gentoo-boot  /boot btrfs noatime,nodiratime,compress-force=zlib,noexec,nosuid,nodev 0 2
-LABEL=gentoo-var   /var btrfs noatime,nodiratime,nodev,nosuid 0 2
-LABEL=gentoo-repos /var/db/portage/repos btrfs noatime,nodiratime,compress-force=zlib,nodev,nosuid,noexec 0 2
-LABEL=gentoo-swap  none swap     sw                                     0 0
-none               /tmp tmpfs    nodev,nosuid,noexec,noatime,nodiratime 0 0
+LABEL=gentoo-root    /                btrfs noatime,nodiratime,compress=zlib,nodev               0 1
+LABEL=gentoo-home    /home            btrfs noatime,nodiratime,compress=lzo,nodev,nosuid         0 2
+LABEL=gentoo-boot    /boot            btrfs noatime,nodiratime,compress=zlib,noexec,nosuid,nodev 0 2
+LABEL=gentoo-var     /var             btrfs noatime,nodiratime,compress=lzo,nodev,nosuid,noexec  0 2
+LABEL=gentoo-porttmp /var/tmp/portage btrfs noatime,nodiratime,compress=lzo,nodev,nosuid         0 2
+#none                 /var/tmp/portage tmpfs noatime,nodiratime,nodev,nosuid,uid=250,gid=250,mode=2750 0 0
+LABEL=gentoo-swap    none             swap  sw                                                   0 0
+none                 /tmp             tmpfs noatime,nodiratime,nodev,nosuid,noexec               0 0
+none                 /dev/shm         tmpfs noatime,nodiratime,nodev,nosuid,noexec               0 0
