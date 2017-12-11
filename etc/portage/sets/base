@@ -39,3 +39,5 @@ app-shells/bash-completion
 app-arch/duff
 sys-boot/os-prober
 app-crypt/gentoo-keys
+dev-util/strace
+sys-process/systemd-cron
