@@ -14,3 +14,4 @@ kde-plasma/plasma-desktop gtk2 gtk3 legacy-systray
 dev-libs/libdbusmenu gtk3
 kde-frameworks/kfilemetadata epub taglib
 sys-apps/dbus user-session
+dev-libs/libdbusmenu gtk

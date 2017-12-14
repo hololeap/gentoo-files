@@ -7,3 +7,5 @@ media-libs/libgpod gtk
 dev-qt/qtwebkit gstreamer
 kde-apps/kig geogebra scripting
 dev-libs/boost python
+games-board/gnushogi -X
+app-cdr/cdrdao -encode

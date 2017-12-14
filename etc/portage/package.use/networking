@@ -4,3 +4,4 @@ www-client/links -X -jpeg -tiff
 net-fs/samba client -gpg 
 sys-libs/tevent python
 sys-libs/tdb python
+net-fs/samba -system-mitkrb5

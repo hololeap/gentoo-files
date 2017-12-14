@@ -1,0 +1,1 @@
+net-im/pidgin -gstreamer -networkmanager -spell -xscreensaver gnutls sasl gtk

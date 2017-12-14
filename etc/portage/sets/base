@@ -41,3 +41,5 @@ sys-boot/os-prober
 app-crypt/gentoo-keys
 dev-util/strace
 sys-process/systemd-cron
+dev-util/ccache
+sys-fs/sysfsutils
