@@ -1,0 +1,2 @@
+net-ftp/ftp -ssl
+www-client/elinks -ssl
