@@ -1,2 +1,2 @@
-amd64           hardened/linux/amd64/17.0/desktop/kde/systemd             exp
-amd64           hardened/linux/amd64/17.0/systemd                         exp
+amd64           hardened-plus             exp
+amd64           hardened-plus/plasma      exp
