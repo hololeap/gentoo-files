@@ -3,15 +3,30 @@ kde-plasma/libksysguard -detailedmemory
 kde-plasma/systemsettings gtk
 kde-plasma/plasma-meta gtk
 
-kde-apps/* X
-kde-frameworks/* X
-kde-misc/* X
-kde-plasma/* X
+*/*::qt X debug
+*/*::kde X debug
+kde-apps/* X debug
+kde-frameworks/* X debug
+kde-misc/* X debug
+kde-plasma/* X debug
+dev-qt/* X debug
+dev-qt/qtwebkit -debug
+dev-qt/qtwebengine -debug
+
 net-irc/kvirc -perl -phonon -spell
 kde-plasma/kwallet-pam -oldwallet
-kde-apps/okular djvu ebook epub mobi mobile plucker
+kde-apps/okular djvu ebook epub markdown mobi mobile plucker speech
 kde-plasma/plasma-desktop gtk2 gtk3 legacy-systray
 dev-libs/libdbusmenu gtk3
 kde-frameworks/kfilemetadata epub taglib
 sys-apps/dbus user-session
 dev-libs/libdbusmenu gtk
+kde-apps/ark lzma zip
+kde-plasma/breeze qt4
+kde-plasma/oxygen qt4
+kde-plasma/plasma-desktop qt4
+kde-plasma/plasma-meta grub
+app-crypt/qca qt4
+sys-auth/polkit-qt qt4
+dev-libs/libdbusmenu-qt qt4
+kde-plasma/powerdevil -wireless

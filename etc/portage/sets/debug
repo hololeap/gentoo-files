@@ -1,0 +1,4 @@
+dev-util/debugedit
+dev-util/strace
+dev-util/valgrind
+sys-devel/gdb

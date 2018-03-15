@@ -1,0 +1,11 @@
+sec-policy/selinux-base-policy ~amd64
+sec-policy/selinux-base ~amd64
+sys-libs/libsepol ~amd64
+sys-apps/semodule-utils ~amd64
+sys-apps/selinux-python ~amd64
+sys-apps/policycoreutils ~amd64
+sys-apps/checkpolicy ~amd64
+sys-process/audit ~amd64
+sys-libs/libselinux ~amd64
+sys-libs/libsemanage ~amd64
+sec-policy/selinux-unconfirmed ~amd64

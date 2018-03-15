@@ -1,2 +1,3 @@
-www-client/firefox gmp-autoupdate
+www-client/firefox -gmp-autoupdate -screenshot -wifi
 x11-base/xorg-server xvfb
+www-client/firefox -jack

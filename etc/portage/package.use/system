@@ -2,3 +2,7 @@ dev-libs/libpcre -readline
 dev-libs/libpcre2 -readline
 app-shells/bash -net
 net-misc/iputils -caps -filecaps
+#sys-process/procps modern-top
+sys-libs/ncurses tinfo
+dev-lang/python sqlite
+app-shells/bash mem-scramble

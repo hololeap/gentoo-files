@@ -1,0 +1,5 @@
+app-office/gnucash chipcard hbci ofx quotes sqlite
+app-office/gnucash aqbanking examples register2
+sys-libs/gwenhywfar gtk
+net-libs/aqbanking ofx gtk
+dev-libs/boost nls

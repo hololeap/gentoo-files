@@ -1,9 +1,5 @@
-media-fonts/liberation-fonts
 x11-apps/mesa-progs
 x11-base/xorg-x11
-app-emulation/wine-any
-#app-emulation/winetricks
-#www-plugins/adobe-flash
 www-client/firefox
 media-video/mpv
 net-misc/youtube-dl

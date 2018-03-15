@@ -1,0 +1,3 @@
+CFLAGS="$CFLAGS -O2 -ggdb0"
+CXXFLAGS="$CXXFLAGS -O2 -ggdb0"
+FEATURES="$FEATURES -nostrip -installsources"

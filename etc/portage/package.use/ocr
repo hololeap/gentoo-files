@@ -1,0 +1,5 @@
+app-text/tesseract examples math osd scrollview training webp
+media-libs/opencv contrib contrib_cvv contrib_hdf contrib_sfm -contrib_xfeatures2d examples gstreamer gtk jpeg2k lapack openexr tesseract testprograms -vtk webp xine gflags glog
+sci-libs/hdf5 -threads
+sci-libs/vtk rendering
+media-libs/leptonica webp

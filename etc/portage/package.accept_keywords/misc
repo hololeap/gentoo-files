@@ -1,1 +1,6 @@
 games-board/gnushogi ~amd64
+net-news/quiterss ~amd64
+app-eselect/eselect-repository **
+app-crypt/fcrackzip ~amd64
+sys-fs/dmg2img ~amd64
+games-misc/doge ~amd64

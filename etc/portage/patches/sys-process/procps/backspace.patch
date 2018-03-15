@@ -1,0 +1,12 @@
+diff -urN procps-ng-3.3.12-orig/top/top.h procps-ng-3.3.12/top/top.h
+--- procps-ng-3.3.12-orig/top/top.h	2016-07-09 15:49:25.829306793 -0600
++++ procps-ng-3.3.12/top/top.h	2018-01-26 22:11:49.999273182 -0700
+@@ -166,7 +166,7 @@
+ #define kbd_PGDN   134
+ #define kbd_HOME   135
+ #define kbd_END    136
+-#define kbd_BKSP   137
++#define kbd_BKSP   '\177'
+ #define kbd_INS    138
+ #define kbd_DEL    139
+ #define kbd_CtrlO  '\017'
