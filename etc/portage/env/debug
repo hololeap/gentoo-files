@@ -1,3 +1,3 @@
-CFLAGS="$CFLAGS -O1 -ggdb"
-CXXFLAGS="$CXXFLAGS -O1 -ggdb"
+CFLAGS="$CFLAGS -Og -ggdb3"
+CXXFLAGS="$CXXFLAGS -Og -ggdb3"
 FEATURES="$FEATURES nostrip installsources"

@@ -21,6 +21,7 @@ sys-apps/pv
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-boot/grub
+sys-devel/crossdev
 sys-fs/btrfs-progs
 sys-fs/dmraid
 sys-fs/dosfstools
@@ -39,7 +40,8 @@ app-shells/bash-completion
 app-arch/duff
 sys-boot/os-prober
 app-crypt/gentoo-keys
-dev-util/strace
 sys-process/systemd-cron
 dev-util/ccache
 sys-fs/sysfsutils
+sys-fs/unionfs-fuse
+sys-apps/sdparm

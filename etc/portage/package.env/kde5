@@ -5,3 +5,4 @@ kde-frameworks/* debug
 kde-misc/* debug
 kde-plasma/* debug
 dev-qt/* debug
+x11-misc/sddm debug

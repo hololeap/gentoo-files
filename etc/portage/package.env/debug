@@ -1,0 +1,5 @@
+app-text/convertlit debug
+media-libs/aalib debug
+sys-libs/compiler-rt-sanitizers debug
+sys-libs/compiler-rt debug
+media-libs/libao debug

@@ -1,0 +1,2 @@
+sys-apps/apparmor ~amd64
+x11-wm/xpra server

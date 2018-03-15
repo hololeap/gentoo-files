@@ -1,0 +1,5 @@
+sci-electronics/gspiceui examples schematics waveform
+sci-electronics/ngspice examples fftw tcl
+sci-electronics/gwave gnuplot plotutils
+dev-scheme/guile networking
+sci-electronics/gnucap examples

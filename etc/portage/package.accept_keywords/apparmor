@@ -1,0 +1,4 @@
+sec-policy/apparmor-profiles ~amd64
+sys-apps/apparmor ~amd64
+sys-apps/apparmor-utils ~amd64
+sys-libs/libapparmor ~amd64

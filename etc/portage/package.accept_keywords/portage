@@ -1,0 +1,5 @@
+sys-apps/portage ~amd64
+app-portage/gemato ~amd64
+dev-python/bz2file ~amd64
+app-crypt/gnupg ~amd64
+app-portage/gentoolkit ~amd64
