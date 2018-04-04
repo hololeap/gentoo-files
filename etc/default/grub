@@ -19,7 +19,7 @@ GRUB_TIMEOUT=2
 GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="dolvm net.ifnames=0 dobtrfs"
+GRUB_CMDLINE_LINUX="dolvm net.ifnames=0 dobtrfs slub_debug=P page_poison=1 slab_nomerge vsyscall=none pti=on selinux=1 apparmor=0 security=selinux"
 #
 # Examples:
 #
@@ -36,7 +36,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="init=/usr/lib/systemd/systemd" # No splash
 #GRUB_CMDLINE_LINUX_DEFAULT="init=/usr/lib/systemd/systemd splash=silent,theme:gentoo console=tty1 quiet real_root=/dev/kraken/root"
 
 # Uncomment to disable graphical terminal (grub-pc only)
-#GRUB_TERMINAL=console
+GRUB_TERMINAL=console
 
 # The resolution used on graphical terminal.
 # Note that you can use only modes which your graphic card supports via VBE.
@@ -48,7 +48,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="init=/usr/lib/systemd/systemd" # No splash
 # 'GRUB_GFXMODE', 'WIDTHxHEIGHT'['xDEPTH'] to set a particular
 # graphics mode, or a sequence of these separated by commas or
 # semicolons to try several modes in sequence.
-GRUB_GFXPAYLOAD_LINUX=keep
+GRUB_GFXPAYLOAD_LINUX=text
 
 # Path to theme spec txt file.
 # The starfield is by default provided with use truetype.
