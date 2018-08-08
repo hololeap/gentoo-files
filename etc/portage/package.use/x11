@@ -1,6 +1,11 @@
 x11-libs/* X
 media-fonts/* X
 media-video/vlc -libnotify X
-media-video/mpv X -xscreensaver
+media-video/mpv X -xscreensaver cli
 x11-drivers/nvidia-drivers gtk3 uvm acpi
 x11-libs/libxcb xkb
+app-crypt/pinentry gnome-keyring
+app-crypt/gcr gtk
+media-video/ffmpeg openssl
+app-text/mupdf -X -curl -opengl -openssl
+x11-base/xorg-server kdrive xcsecurity xephyr xnest

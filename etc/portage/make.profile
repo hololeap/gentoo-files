@@ -1,0 +1,1 @@
+../../var/db/portage/repos/local/profiles/hardened-plus/plasma

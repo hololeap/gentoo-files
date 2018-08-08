@@ -2,21 +2,21 @@ dev-lang/ghc
 dev-haskell/haskell-platform
 dev-haskell/stack
 dev-haskell/cabal
-dev-haskell/hoogle
-dev-haskell/hscolour
-dev-haskell/hlint
+#dev-haskell/hoogle
+#dev-haskell/hscolour
+#dev-haskell/hlint
 
 dev-haskell/hspec
 dev-haskell/lens
 dev-haskell/extensible-effects
 dev-haskell/acid-state
 dev-haskell/configurator
-dev-haskell/reactive-banana
-dev-haskell/reactive-banana-wx
-dev-haskell/gtk3
+#dev-haskell/reactive-banana
+#dev-haskell/reactive-banana-wx
+#dev-haskell/gtk3
 
-dev-haskell/diagrams-canvas
-dev-haskell/diagrams-gtk
+#dev-haskell/diagrams-canvas
+#dev-haskell/diagrams-gtk
 
 app-portage/hackport
 
@@ -24,3 +24,10 @@ dev-haskell/network-enumerator
 dev-haskell/network-simple
 dev-haskell/network-socket-options
 dev-haskell/socket
+
+dev-haskell/lcs
+dev-haskell/minisat
+
+dev-haskell/data-fix
+dev-haskell/base-unicode-symbols
+dev-haskell/containers-unicode-symbols

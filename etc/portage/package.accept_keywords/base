@@ -8,3 +8,5 @@ app-arch/duff ~amd64
 sys-kernel/linux-firmware ~amd64
 app-portage/eix ~amd64
 app-crypt/gentoo-keys ~amd64
+sys-devel/crossdev ~amd64
+sys-fs/unionfs-fuse ~amd64

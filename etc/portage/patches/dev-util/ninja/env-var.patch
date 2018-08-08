@@ -1,0 +1,73 @@
+From 05023954c1ef16fc6ca140ec4f1e0ea5481b090c Mon Sep 17 00:00:00 2001
+From: Olivier Croquette <ocroquette@free.fr>
+Date: Thu, 14 Dec 2017 21:32:32 +0100
+Subject: [PATCH] Added support for environment variable NINJA_PARALLEL_JOBS
+
+---
+ doc/manual.asciidoc | 16 ++++++++++++++--
+ src/ninja.cc        | 10 ++++++++++
+ 2 files changed, 24 insertions(+), 2 deletions(-)
+
+diff --git a/doc/manual.asciidoc b/doc/manual.asciidoc
+index 9e55c0261..79c26e73a 100644
+--- a/doc/manual.asciidoc
++++ b/doc/manual.asciidoc
+@@ -191,7 +191,8 @@ you don't need to pass `-j`.)
+ Environment variables
+ ~~~~~~~~~~~~~~~~~~~~~
+ 
+-Ninja supports one environment variable to control its behavior:
++Ninja supports two environment variables to control its behavior:
++
+ `NINJA_STATUS`, the progress status printed before the rule being run.
+ 
+ Several placeholders are available:
+@@ -212,6 +213,17 @@ The default progress status is `"[%f/%t] "` (note the trailing space
+ to separate from the build rule). Another example of possible progress status
+ could be `"[%u/%r/%f] "`.
+ 
++`NINJA_PARALLEL_JOBS`, the maximum number of jobs to run in parallel.
++
++This is the same as the -j option and can be used to override the default
++value guessed by Ninja. For instance, you might want to use only the number
++of physical cores even when virtual cores are available, especially when
++working with slow storage mediums. Or in a shared environment, using all
++cores could disturb other users. Instead of providing the -j option every
++time on the command line, set this environment variable for the system,
++the user or the current shell, as appropriate.
++
++
+ Extra tools
+ ~~~~~~~~~~~
+ 
+@@ -628,7 +640,7 @@ or a build statement.
+ 
+ No matter what pools you specify, ninja will never run more concurrent jobs
+ than the default parallelism, or the number of jobs specified on the command
+-line (with `-j`).
++line (with `-j`) or with the environment variable NINJA_PARALLEL_JOBS.
+ 
+ ----------------
+ # No more than 4 links at a time.
+diff --git a/src/ninja.cc b/src/ninja.cc
+index 30f89c27f..7d0d225ed 100644
+--- a/src/ninja.cc
++++ b/src/ninja.cc
+@@ -221,6 +221,16 @@ void Usage(const BuildConfig& config) {
+ 
+ /// Choose a default value for the -j (parallelism) flag.
+ int GuessParallelism() {
++  const char* env_name = "NINJA_PARALLEL_JOBS";
++  const char* env_value = getenv(env_name);
++  if ( env_value != NULL ) {
++    char *end;
++    int value = strtol(env_value, &end, 10);
++    if (*end != 0 || value <= 0)
++      Fatal("invalid value for NINJA_PARALLEL_JOBS");
++    return value;
++  }
++
+   switch (int processors = GetProcessorCount()) {
+   case 0:
+   case 1:
+

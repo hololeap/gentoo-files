@@ -1,0 +1,1 @@
+CABAL_EXTRA_CONFIGURE_FLAGS="-O1 --disable-split-objs"

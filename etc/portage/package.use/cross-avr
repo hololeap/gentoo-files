@@ -1,0 +1,3 @@
+cross-avr/binutils cxx -multilib
+cross-avr/avr-libc -multilib
+cross-avr/gcc -fortran -go -pie -multilib -pgo -ssp

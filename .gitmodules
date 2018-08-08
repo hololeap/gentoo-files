@@ -2,10 +2,3 @@
 	path = var/db/portage/repos/gentoo
 	url = https://anongit.gentoo.org/git/repo/sync/gentoo.git
 	shallow = true
-[submodule "mv"]
-	path = var/db/portage/repos/mv
-	url = https://anongit.gentoo.org/git/user/mv.git
-	shallow = true
-[submodule "lto-overlay"]
-	path = var/db/portage/repos/lto-overlay
-	url = https://github.com/InBetweenNames/gentooLTO.git

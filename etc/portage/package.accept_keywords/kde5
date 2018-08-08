@@ -20,3 +20,5 @@ net-irc/kvirc ~amd64
 kde-apps/k3b ~amd64
 dev-libs/tinyxml2 ~amd64
 sys-fs/encfs ~amd64
+kde-frameworks/extra-cmake-modules **
+sys-auth/elogind ~amd64

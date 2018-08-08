@@ -1,0 +1,4 @@
+# For some reason, all later versions of SDDM don't *do* anything (the sddm
+# binary runs but never starts X)
+
+>x11-misc/sddm-0.15.0

@@ -1,0 +1,8 @@
+sci-electronics/spice ~amd64
+sci-electronics/ngspice ~amd64
+sci-visualization/xgraph ~amd64
+sci-electronics/gwave ~amd64
+x11-libs/guile-gtk ~amd64
+dev-libs/g-wrap ~amd64
+dev-scheme/guile-gnome-platform ~amd64
+sci-electronics/gnucap ~amd64
