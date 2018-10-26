@@ -1,4 +1,16 @@
 dev-lang/ghc doc
 dev-haskell/* doc hscolour hoogle
 */*::haskell doc hscolour hoogle
-dev-haskell/gi-gtk -doc -hscolour -hoogle
+*/*::haskell-local doc hscolour hoogle
+app-text/pandoc doc hscolour hoogle
+
+#dev-haskell/gi-gtk -doc -hscolour -hoogle
+#dev-haskell/haddock-library -doc
+
+# These packages crash haddock for some reson
+=dev-haskell/haddock-library-1.6.0 -doc -hoogle
+=dev-haskell/path-io-1.3.3 -doc -hoogle
+#dev-haskell/reflex reflex-optimizer
+dev-haskell/haskell-gi-overloading -doc -hoogle
+dev-haskell/synthesizer-dimensional optimizeadvanced
+dev-haskell/synthesizer-alsa optimizeadvanced

@@ -5,3 +5,4 @@ net-fs/samba client -gpg
 sys-libs/tevent python
 sys-libs/tdb python
 net-fs/samba -system-mitkrb5
+net-vpn/openvpn inotify iproute2

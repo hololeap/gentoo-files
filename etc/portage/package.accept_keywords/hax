@@ -1,0 +1,9 @@
+net-proxy/mitmproxy ~amd64
+dev-python/netlib ~amd64
+dev-python/twisted ~amd64
+dev-python/m2r ~amd64
+dev-python/automat ~amd64
+dev-python/hyper-h2 ~amd64
+dev-python/hyperlink ~amd64
+dev-python/hyperframe ~amd64
+www-servers/tornado ~amd64

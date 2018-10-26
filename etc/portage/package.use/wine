@@ -4,3 +4,4 @@ app-emulation/wine-any X dos gstreamer pipelight staging themes -udisks netapi
 net-fs/samba winbind
 
 app-emulation/winetricks gtk rar
+app-emulation/wine-vanilla custom-cflags

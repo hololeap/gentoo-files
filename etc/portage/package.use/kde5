@@ -3,17 +3,17 @@ kde-plasma/libksysguard -detailedmemory
 kde-plasma/systemsettings gtk
 kde-plasma/plasma-meta gtk
 
-*/*::qt X debug
-*/*::kde X debug
-kde-apps/* X debug
-kde-frameworks/* X debug
-kde-misc/* X debug
-kde-plasma/* X debug
-dev-qt/* X debug
+#*/*::qt X debug
+#*/*::kde X debug
+kde-apps/* X #debug
+kde-frameworks/* X #debug
+kde-misc/* X #debug
+kde-plasma/* X #debug
+dev-qt/* X #debug
 dev-qt/qtwebkit -debug
 dev-qt/qtwebengine -debug
 
-net-irc/kvirc -perl -phonon -spell
+net-irc/kvirc kde -perl -python -phonon -spell
 kde-plasma/kwallet-pam -oldwallet
 kde-apps/okular djvu ebook epub markdown mobi mobile plucker speech
 kde-plasma/plasma-desktop gtk2 gtk3 legacy-systray

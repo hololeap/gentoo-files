@@ -1,0 +1,2 @@
+games-emulation/libretro-meta -4do -beetle-psx -desmume -fbalpha -genplus -handy -mame2003 -mednafen-ngp -mednafen-pce-fast -mednafen-saturn -mednafen-supergrafx -mednafen-vb -mednafen-wswan -mupen64plus -nxengine -ppsspp -prboom -prosystem -reicast -scummvm -stella -tyrquake
+games-emulation/* custom-cflags

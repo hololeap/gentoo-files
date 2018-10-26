@@ -1,0 +1,6 @@
+#*/*::haskell
+#*/*::haskell-local
+#dev-haskell/*
+#app-text/pandoc
+
+=dev-haskell/aeson-1.4.0.0

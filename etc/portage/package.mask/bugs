@@ -1,4 +1,5 @@
 # For some reason, all later versions of SDDM don't *do* anything (the sddm
 # binary runs but never starts X)
 
->x11-misc/sddm-0.15.0
+#>x11-misc/sddm-0.15.0
+#=net-p2p/vuze-5.7.2.0-r1

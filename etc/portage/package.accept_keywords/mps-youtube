@@ -1,4 +1,4 @@
-media-sound/mps-youtube ~amd64
+media-sound/mps-youtube **
 dev-python/pafy ~amd64
-net-misc/youtube-dl ~amd64
 media-video/mpv ~amd64
+dev-python/dbus-python ~amd64

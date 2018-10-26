@@ -1,1 +1,2 @@
 net-firewall/conntrack-tools ~amd64
+net-libs/libnetfilter_conntrack ~amd64

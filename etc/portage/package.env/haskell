@@ -1,3 +1,3 @@
-dev-haskell/gi-gtk haskellnoopts
-app-editors/leksah haskellnoopts
-dev-haskell/stack  haskellnoopts
+#dev-haskell/gi-gtk haskellnoopts
+#app-editors/leksah haskellnoopts
+#dev-haskell/stack  haskellnoopts

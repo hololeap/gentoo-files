@@ -4,7 +4,7 @@ nproc="$(/usr/bin/nproc)"
 
 source /lib/gentoo/functions.sh
 
-for repo in local; do
+for repo in local haskell; do
 	einfo "Running egencache for $repo"
 	if ! egencache --update "-j${nproc}" --load-average "${nproc}.0" --repo "$repo"
 	then

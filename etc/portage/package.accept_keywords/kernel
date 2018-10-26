@@ -1,3 +1,4 @@
 # Use the latest of the 4.9 branch
 #<sys-kernel/gentoo-sources-4.9.9999 ~amd64
 sys-kernel/gentoo-sources ~amd64
+sys-kernel/dracut ~amd64

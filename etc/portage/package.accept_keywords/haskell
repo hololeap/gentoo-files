@@ -2,6 +2,22 @@
 */*::haskell-local ~amd64
 dev-haskell/* ~amd64
 
-dev-lang/ghc ~amd64
-app-admin/haskell-updater ~amd64
+app-admin/haskell-updater **
 app-portage/hackport **
+
+#<dev-haskell/cabal-install-2.2.0.9999 **
+#<dev-haskell/stack-9.9.9 **
+#<dev-haskell/cabal-2.2.0.9999 **
+#<dev-lang/ghc-8.4.9999 **
+#<dev-haskell/transformers-9999 **
+#<dev-haskell/haddock-api-9999 **
+#<dev-haskell/haddock-library-9999 **
+#<dev-haskell/xhtml-9999 **
+#<dev-haskell/binary-9999 **
+
+#<dev-haskell/haddock-9999 **
+
+dev-haskell/darcs ~amd64
+
+#dev-haskell/reflex **
+#=dev-haskell/text-1.2.3.1 **

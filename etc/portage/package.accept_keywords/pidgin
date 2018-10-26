@@ -1,0 +1,6 @@
+net-im/pidgin ~amd64
+x11-plugins/pidgin-opensteamworks ~amd64
+x11-plugins/pidgin-telegram ~amd64
+
+dev-libs/cyrus-sasl ~amd64
+x11-plugins/purple-hangouts ~amd64

@@ -1,2 +1,5 @@
+# kernels >=4.17.0 are currently incompatible with nvidia-drivers
+# sys-kernel/gentoo-sources
+
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.9.76
+sys-kernel/dracut

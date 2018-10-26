@@ -1,0 +1,4 @@
+
+dev-haskell/* nostricter
+*/*::haskell nostricter
+*/*::haskell-local nostricter

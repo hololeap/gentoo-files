@@ -2,6 +2,7 @@ net-dns/bind-tools
 net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
+net-firewall/conntrack-tools
 net-firewall/iptables
 net-ftp/ftp
 net-irc/weechat
@@ -12,4 +13,3 @@ net-misc/whois
 sys-apps/iproute2
 sys-devel/distcc
 www-client/elinks
-net-firewall/conntrack-tools

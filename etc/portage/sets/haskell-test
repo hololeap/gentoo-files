@@ -1,0 +1,12 @@
+dev-haskell/hspec-core
+dev-haskell/hspec-discover
+dev-haskell/servant
+dev-haskell/servant-auth
+dev-haskell/servant-auth-client
+dev-haskell/servant-auth-server
+dev-haskell/servant-client
+dev-haskell/servant-client-core
+dev-haskell/servant-server
+dev-haskell/digestive-functors-blaze
+dev-haskell/clay
+dev-haskell/fay

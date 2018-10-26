@@ -31,3 +31,6 @@ media-libs/smpeg nostricter
 dev-lang/rust nostricter
 sci-electronics/spice nostricter
 dev-db/unixODBC nostricter
+media-libs/libdv nostricter
+sys-libs/libcap nostricter
+dev-libs/cyrus-sasl nostricter

@@ -1,0 +1,2 @@
+sys-apps/busybox mdev
+sys-kernel/mkinitramfs-ll btrfs -bzip2 device-mapper -e2fs -lzma -mdadm xz -zram

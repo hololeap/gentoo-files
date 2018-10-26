@@ -10,8 +10,10 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
+app-text/dos2unix
 app-text/qpdf
 app-text/wgetpaste
+dev-libs/libcgroup
 dev-vcs/git
 media-sound/alsa-utils
 sys-apps/lshw

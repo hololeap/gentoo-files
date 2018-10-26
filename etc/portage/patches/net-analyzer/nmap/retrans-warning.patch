@@ -1,0 +1,17 @@
+diff -urN nmap-7.70-old/scan_engine.cc nmap-7.70/scan_engine.cc
+--- nmap-7.70-old/scan_engine.cc	2018-01-28 14:18:17.000000000 -0700
++++ nmap-7.70/scan_engine.cc	2018-07-07 03:35:32.241977887 -0600
+@@ -2616,9 +2616,10 @@
+       if (!probe->isPing() && probe->timedout && !probe->retransmitted) {
+         if (!tryno_mayincrease && probe->tryno >= maxtries) {
+           if (tryno_capped && !host->retry_capped_warned) {
+-            log_write(LOG_PLAIN, "Warning: %s giving up on port because"
+-                      " retransmission cap hit (%d).\n", host->target->targetipstr(),
+-                      probe->tryno);
++	    if (maxtries > 0)
++              log_write(LOG_PLAIN, "Warning: %s giving up on port because"
++                        " retransmission cap hit (%d).\n", host->target->targetipstr(),
++                        probe->tryno);
+             host->retry_capped_warned = true;
+           }
+           if (USI->ping_scan) {

@@ -1,5 +1,6 @@
 kde-apps/ark:5
 kde-apps/dolphin:5
+kde-apps/dolphin-plugins:5
 kde-apps/filelight:5
 kde-apps/ffmpegthumbs:5
 kde-apps/gwenview:5
@@ -9,6 +10,7 @@ kde-apps/kwrite:5
 kde-apps/okular:5
 kde-apps/print-manager:5
 kde-apps/thumbnailers:5
+kde-misc/basket:5
 kde-misc/yakuake:5
 kde-plasma/plasma-meta:5
 net-irc/kvirc

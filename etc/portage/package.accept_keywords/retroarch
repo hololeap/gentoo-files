@@ -1,0 +1,4 @@
+games-emulation/retroarch ~amd64
+games-emulation/retroarch-assets ~amd64
+games-emulation/retroarch-joypad-autoconfig ~amd64
+games-emulation/* ~amd64

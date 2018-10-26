@@ -4,3 +4,4 @@ dev-libs/libclc ~amd64
 net-misc/youtube-dl **
 media-libs/mesa ~amd64
 x11-libs/libdrm ~amd64
+dev-libs/libgpg-error ~amd64
