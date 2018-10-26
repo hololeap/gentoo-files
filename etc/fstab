@@ -2,8 +2,20 @@ LABEL=triton-root    /                btrfs noatime,nodiratime,compress=zlib,nod
 LABEL=triton-home    /home            btrfs noatime,nodiratime,compress=lzo,nodev,nosuid         0 2
 LABEL=gentoo-boot    /boot            btrfs noatime,nodiratime,compress=zlib,noexec,nosuid,nodev 0 2
 LABEL=triton-var     /var             btrfs noatime,nodiratime,compress=lzo,nodev,nosuid,noexec  0 2
-LABEL=triton-porttmp /var/tmp/portage btrfs noatime,nodiratime,compress=lzo,nodev,nosuid         0 2
-#none                 /var/tmp/portage tmpfs noatime,nodiratime,nodev,nosuid,uid=250,gid=250,mode=2750 0 0
+LABEL=triton-porttmp /var/tmp/portage btrfs noatime,nodiratime,nodev,nosuid                      0 2
+#none           /var/tmp/portage tmpfs noatime,nodiratime,nodev,nosuid,uid=250,gid=250,mode=2750 0 0
 LABEL=triton-swap    none             swap  sw                                                   0 0
 none                 /tmp             tmpfs noatime,nodiratime,nodev,nosuid,noexec               0 0
 none                 /dev/shm         tmpfs noatime,nodiratime,nodev,nosuid,noexec               0 0
+none                 /proc            proc  nosuid,nodev,noexec,noatime,hidepid=2,gid=150        0 0
+none        /sys/kernel/security securityfs nosuid,nodev,noexec,noatime,nodiratime               0 0
+
+UUID=828C2F728C2F6041 /mnt/usb        ntfs  ro,noauto,noatime,nodiratime,uid=kinetik,gid=kinetik,unhide 0 0
+
+# For a "targeted" or "strict" policy type:
+tmpfs  /run   tmpfs  mode=0755,nosuid,nodev,rootcontext=system_u:object_r:var_run_t  0 0
+  
+  # For an "mls" or "mcs" policy type:
+#tmpfs  /run   tmpfs  mode=0755,nosuid,nodev,rootcontext=system_u:object_r:var_run_t:s0  0 0
+
+UUID=642A313B2A310C14 /mnt/windows    ntfs  noauto,noatime,nodiratime,uid=kinetik,gid=kinetik,unhide 0 0

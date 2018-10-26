@@ -1,4 +1,3 @@
 -video_cards_nvidia
 pax_kernel
--apparmor
 -systemd
