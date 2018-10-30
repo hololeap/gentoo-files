@@ -1,0 +1,8 @@
+[Match]
+
+MACAddress=d4:85:64:a9:7f:7e
+
+[Link]
+
+Unmanaged=yes
+RequiredForOnline=no

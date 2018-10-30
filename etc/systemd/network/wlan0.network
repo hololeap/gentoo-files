@@ -1,0 +1,14 @@
+[Match]
+
+MACAddress=1c:65:9d:90:c7:cc
+
+[Network]
+
+Description=Wireless Network
+DHCP=ipv4
+LinkLocalAddressing=no
+
+[DHCP]
+
+UseDNS=no
+UseHostname=no
