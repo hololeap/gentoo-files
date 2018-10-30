@@ -6,7 +6,6 @@ net-firewall/conntrack-tools
 net-firewall/iptables
 net-ftp/ftp
 net-irc/weechat
-net-misc/dhcpcd
 net-misc/netkit-telnetd
 net-misc/ntp
 net-misc/whois
